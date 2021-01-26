@@ -1,19 +1,10 @@
 var temperature = 49;
-
-if (temperature < 50) {
-document.write('Put on a coat'); 
-}
-
-var temperature = 29;
-
-if (temperature < 30) {
-document.write('Wear a coat and a hat'); 
-}
-
-else if (temperature < 0) {
+if (temperature < 0 ) {
 document.write('Stay inside please'); 
-}
-
-else {
-document.write('Just pants and vest is fine'); 
+} else if (temperature < 30 ) {
+document.write('Please put on a coat and hat'); 
+} else if (temperature < 50) {
+    document.write('Please put on a coat');
+} else {
+    document.write('No need for a hat or coat')
 }
