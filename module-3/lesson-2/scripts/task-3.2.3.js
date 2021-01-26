@@ -16,7 +16,7 @@ function showFullName(fName,sName){
   return  fullName;
   }
 
-  var person1 = showFullName('Charlotte, 'Croshaw')
+  var person1 = showFullName('Charlotte', 'Croshaw');
   document.write( person1);
   
   var person2 = showFullName('Demi', 'Moore');
