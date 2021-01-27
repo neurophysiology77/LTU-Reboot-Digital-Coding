@@ -1,0 +1,7 @@
+function percentageCalculator (number, percentage ) {
+    var percentageOf = (number * percentage) / 100;
+    return percentageOf;
+    console.log (300, 3.5)
+    }
+    
+Total();
